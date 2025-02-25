@@ -1,3 +1,5 @@
+document.getElementById("ano").innerHTML = new Date().getFullYear();
+
 const form = document.getElementById('form-atividade');
 const imgAprovado = '<img src="./images/aprovado.png" alt="Emoji celebrando" />';
 const imgReprovado = '<img src="./images/reprovado.png" alt="Emoji decepcionado" />';
