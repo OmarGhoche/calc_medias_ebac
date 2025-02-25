@@ -64,5 +64,5 @@ function calculaMedia() {
     somaNotas += notas[i];
   }
 
-  return (somaNotas / notas.length).toPrecision(2);
+  return (somaNotas / notas.length).toFixed(2);
 }
